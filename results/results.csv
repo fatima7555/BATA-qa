@@ -1,0 +1,293 @@
+test_id,use_case,kind,run,result,value_used,detail,timestamp
+TC05,"UC3 Guest order",valid,1,PASS,"867-2081/size=41/7","reached payment stage, fields accepted",2026-11-07T15:22:10.333159500Z
+TC05,"UC3 Guest order",valid,2,PASS,"677-4027/size=38/5","reached payment stage, fields accepted",2026-11-07T15:22:53.424117100Z
+TC05,"UC3 Guest order",valid,3,PASS,"671-6142/size=39/6","reached payment stage, fields accepted",2026-11-07T15:23:37.512678400Z
+TC05,"UC3 Guest order",valid,4,PASS,"677-6027/size=40/7","reached payment stage, fields accepted",2026-11-07T15:24:19.802594300Z
+TC05,"UC3 Guest order",valid,5,PASS,"571-8030/size=41/8","reached payment stage, fields accepted",2026-11-07T15:24:54.868867700Z
+TC05,"UC3 Guest order",valid,6,PASS,"677-7029/size=36/3","reached payment stage, fields accepted",2026-11-07T15:25:37.845840800Z
+TC05,"UC3 Guest order",valid,7,PASS,"571-5030/size=37/4","reached payment stage, fields accepted",2026-11-07T15:26:17.837066800Z
+TC05,"UC3 Guest order",valid,8,PASS,"851-4029/size=43/9","reached payment stage, fields accepted",2026-11-07T15:26:57.677625200Z
+TC05,"UC3 Guest order",valid,9,PASS,"877-6016/size=43/9","reached payment stage, fields accepted",2026-11-07T15:27:44.986388800Z
+TC05,"UC3 Guest order",valid,10,PASS,"874-6078/size=40/6","reached payment stage, fields accepted",2026-11-07T15:28:32.146292400Z
+TC05,"UC3 Guest order",valid,11,PASS,"867-2081/size=45/11","reached payment stage, fields accepted",2026-11-07T15:29:11.870323300Z
+TC05,"UC3 Guest order",valid,12,PASS,"677-4027/size=36/3","reached payment stage, fields accepted",2026-11-07T15:29:49.189926Z
+TC05,"UC3 Guest order",valid,13,PASS,"671-6142/size=37/4","reached payment stage, fields accepted",2026-11-07T15:30:31.179710700Z
+TC05,"UC3 Guest order",valid,14,PASS,"677-6027/size=38/5","reached payment stage, fields accepted",2026-11-07T15:31:17.039257Z
+TC05,"UC3 Guest order",valid,15,PASS,"571-8030/size=39/6","reached payment stage, fields accepted",2026-11-07T15:31:59.632036900Z
+TC05,"UC3 Guest order",valid,16,PASS,"677-7029/size=40/7","reached payment stage, fields accepted",2026-11-07T15:32:40.720858600Z
+TC05,"UC3 Guest order",valid,17,PASS,"571-5030/size=41/8","reached payment stage, fields accepted",2026-11-07T15:33:19.835745700Z
+TC05,"UC3 Guest order",valid,18,PASS,"851-4029/size=43/9","reached payment stage, fields accepted",2026-11-07T15:33:56.958005Z
+TC05,"UC3 Guest order",valid,19,PASS,"877-6016/size=41/7","reached payment stage, fields accepted",2026-11-07T15:34:39.189287800Z
+TC05,"UC3 Guest order",valid,20,PASS,"874-6078/size=40/6","reached payment stage, fields accepted",2026-11-07T15:35:14.991244900Z
+TC05,"UC3 Guest order",valid,21,PASS,"867-2081/size=43/9","reached payment stage, fields accepted",2026-11-07T15:35:53.767184400Z
+TC05,"UC3 Guest order",valid,22,PASS,"677-4027/size=40/7","reached payment stage, fields accepted",2026-11-07T15:36:30.676332700Z
+TC05,"UC3 Guest order",valid,23,PASS,"671-6142/size=41/8","reached payment stage, fields accepted",2026-11-07T15:37:11.176949800Z
+TC05,"UC3 Guest order",valid,24,PASS,"677-6027/size=36/3","reached payment stage, fields accepted",2026-11-07T15:37:56.412783300Z
+TC05,"UC3 Guest order",valid,25,PASS,"571-8030/size=37/4","reached payment stage, fields accepted",2026-11-07T15:38:32.055897600Z
+TC05,"UC3 Guest order",valid,26,PASS,"677-7029/size=38/5","reached payment stage, fields accepted",2026-11-07T15:39:09.577893500Z
+TC05,"UC3 Guest order",valid,27,PASS,"571-5030/size=39/6","reached payment stage, fields accepted",2026-11-07T15:39:59.886885400Z
+TC05,"UC3 Guest order",valid,28,PASS,"851-4029/size=43/9","reached payment stage, fields accepted",2026-11-07T15:40:46.381322700Z
+TC05,"UC3 Guest order",valid,29,PASS,"877-6016/size=45/11","reached payment stage, fields accepted",2026-11-07T15:41:25.545123400Z
+TC06,"UC3 Guest order",invalid,1,PASS,"phone_too_short | value='0369' | 867-2081/size=41/7","inline validation error shown",2026-11-07T15:50:33.858711Z
+TC06,"UC3 Guest order",invalid,2,PASS,"phone_symbols | value='#$%&*!2' | 677-4027/size=38/5","inline validation error shown",2026-11-07T15:51:12.597699200Z
+TC06,"UC3 Guest order",invalid,3,PASS,"phone_letters_and_digits | value='0301abc1488' | 671-6142/size=39/6","inline validation error shown",2026-11-07T15:52:18.824983Z
+TC06,"UC3 Guest order",invalid,4,PASS,"phone_five_digits | value='04591' | 677-6027/size=40/7","inline validation error shown",2026-11-07T15:52:55.848361700Z
+TC06,"UC3 Guest order",invalid,5,PASS,"phone_zeros_short | value='000' | 571-8030/size=41/8","inline validation error shown",2026-11-07T15:53:35.309232Z
+TC06,"UC3 Guest order",invalid,6,PASS,"phone_letters | value='abc264' | 677-7029/size=36/3","inline validation error shown",2026-11-07T15:54:13.739237600Z
+TC06,"UC3 Guest order",invalid,7,PASS,"phone_too_short | value='0340' | 571-5030/size=38/5","inline validation error shown",2026-11-07T15:55:04.691913Z
+TC06,"UC3 Guest order",invalid,8,PASS,"phone_symbols | value='#$%&*!8' | 851-4029/size=43/9","inline validation error shown",2026-11-07T15:55:44.390848100Z
+TC06,"UC3 Guest order",invalid,9,PASS,"phone_letters_and_digits | value='0301abc5743' | 877-6016/size=44/10","inline validation error shown",2026-11-07T15:56:39.501168200Z
+TC06,"UC3 Guest order",invalid,10,PASS,"phone_five_digits | value='06799' | 874-6078/size=40/6","inline validation error shown",2026-11-07T15:57:15.502080900Z
+TC06,"UC3 Guest order",invalid,11,PASS,"phone_zeros_short | value='000' | 867-2081/size=45/11","inline validation error shown",2026-11-07T15:57:52.637830200Z
+TC06,"UC3 Guest order",invalid,12,PASS,"phone_letters | value='abc502' | 677-4027/size=36/3","inline validation error shown",2026-11-07T15:58:29.523253100Z
+TC06,"UC3 Guest order",invalid,13,PASS,"phone_too_short | value='0338' | 671-6142/size=37/4","inline validation error shown",2026-11-07T15:59:16.628411800Z
+TC06,"UC3 Guest order",invalid,14,PASS,"phone_symbols | value='#$%&*!1' | 677-6027/size=38/5","inline validation error shown",2026-11-07T15:59:53.328132400Z
+TC06,"UC3 Guest order",invalid,15,PASS,"phone_letters_and_digits | value='0301abc8977' | 571-8030/size=39/6","inline validation error shown",2026-11-07T16:00:29.138777500Z
+TC06,"UC3 Guest order",invalid,16,PASS,"phone_five_digits | value='09507' | 677-7029/size=40/7","inline validation error shown",2026-11-07T16:01:12.840873500Z
+TC06,"UC3 Guest order",invalid,17,PASS,"phone_zeros_short | value='000' | 571-5030/size=41/8","inline validation error shown",2026-11-07T16:01:55.035369300Z
+TC06,"UC3 Guest order",invalid,18,PASS,"phone_letters | value='abc553' | 851-4029/size=43/9","inline validation error shown",2026-11-07T16:02:30.443280900Z
+TC06,"UC3 Guest order",invalid,19,PASS,"phone_too_short | value='0389' | 877-6016/size=41/7","inline validation error shown",2026-11-07T16:03:07.544113Z
+TC06,"UC3 Guest order",invalid,20,PASS,"phone_symbols | value='#$%&*!7' | 874-6078/size=40/6","inline validation error shown",2026-11-07T16:03:47.456768100Z
+TC06,"UC3 Guest order",invalid,21,PASS,"phone_letters_and_digits | value='0301abc5232' | 867-2081/size=43/9","inline validation error shown",2026-11-07T16:04:30.072373500Z
+TC06,"UC3 Guest order",invalid,22,PASS,"phone_five_digits | value='02716' | 677-4027/size=40/7","inline validation error shown",2026-11-07T16:05:14.581140Z
+TC06,"UC3 Guest order",invalid,23,PASS,"phone_zeros_short | value='000' | 671-6142/size=41/8","inline validation error shown",2026-11-07T16:05:53.432445600Z
+TC06,"UC3 Guest order",invalid,24,PASS,"phone_letters | value='abc809' | 677-6027/size=36/3","inline validation error shown",2026-11-07T16:06:41.650298800Z
+TC06,"UC3 Guest order",invalid,25,PASS,"phone_too_short | value='0324' | 571-8030/size=37/4","inline validation error shown",2026-11-07T16:07:24.284846800Z
+TC06,"UC3 Guest order",invalid,26,PASS,"phone_symbols | value='#$%&*!8' | 677-7029/size=38/5","inline validation error shown",2026-11-07T16:08:10.653101900Z
+TC06,"UC3 Guest order",invalid,27,PASS,"phone_letters_and_digits | value='0301abc4483' | 571-5030/size=39/6","inline validation error shown",2026-11-07T16:08:47.233699800Z
+TC06,"UC3 Guest order",invalid,28,PASS,"phone_five_digits | value='04091' | 851-4029/size=43/9","inline validation error shown",2026-11-07T16:09:22.186304600Z
+TC06,"UC3 Guest order",invalid,29,PASS,"phone_zeros_short | value='000' | 877-6016/size=45/11","inline validation error shown",2026-11-07T16:10:28.301730400Z
+TC01,"UC1 Registration",valid,1,PASS,"qa.0dc75fc6@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:08:29.195155500Z
+TC01,"UC1 Registration",valid,2,PASS,"qa.513d98b3@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:08:44.758178800Z
+TC01,"UC1 Registration",valid,3,PASS,"qa.8996501b@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:09:02.986927600Z
+TC01,"UC1 Registration",valid,4,PASS,"qa.37a69fd1@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:09:20.373349300Z
+TC01,"UC1 Registration",valid,5,PASS,"qa.b85411ef@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:09:33.072073800Z
+TC01,"UC1 Registration",valid,6,PASS,"qa.f978a52c@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:09:45.144154700Z
+TC01,"UC1 Registration",valid,7,PASS,"qa.50e13e62@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:10:02.639391100Z
+TC01,"UC1 Registration",valid,8,PASS,"qa.fc9deb83@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:10:19.763421100Z
+TC01,"UC1 Registration",valid,9,PASS,"qa.5091d07f@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:10:36.431410700Z
+TC01,"UC1 Registration",valid,10,PASS,"qa.80078ab8@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:10:51.982362500Z
+TC01,"UC1 Registration",valid,11,PASS,"qa.9cbc7e44@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:11:06.720781700Z
+TC01,"UC1 Registration",valid,12,PASS,"qa.5c9a5164@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:11:21.456503100Z
+TC01,"UC1 Registration",valid,13,PASS,"qa.8ffb7065@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:11:36.044137200Z
+TC01,"UC1 Registration",valid,14,PASS,"qa.2503360e@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:11:53.774733800Z
+TC01,"UC1 Registration",valid,15,PASS,"qa.f241432f@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:12:12.847896700Z
+TC01,"UC1 Registration",valid,16,PASS,"qa.b6c4258b@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:12:27.731595500Z
+TC01,"UC1 Registration",valid,17,PASS,"qa.2a77f891@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:12:48.066796200Z
+TC01,"UC1 Registration",valid,18,PASS,"qa.9877761d@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:13:02.234036100Z
+TC01,"UC1 Registration",valid,19,PASS,"qa.4d5c77d8@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:13:21.395675400Z
+TC01,"UC1 Registration",valid,20,PASS,"qa.1ddcaddc@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:13:35.212357400Z
+TC01,"UC1 Registration",valid,21,PASS,"qa.c70274b8@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:13:51.237328200Z
+TC01,"UC1 Registration",valid,22,PASS,"qa.f83e493d@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:14:06.727444500Z
+TC01,"UC1 Registration",valid,23,PASS,"qa.937d5324@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:14:19.309848600Z
+TC01,"UC1 Registration",valid,24,PASS,"qa.d964fe9a@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:14:38.874330500Z
+TC01,"UC1 Registration",valid,25,PASS,"qa.5d96b007@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:14:51.304296200Z
+TC01,"UC1 Registration",valid,26,PASS,"qa.6cd5fc3c@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:15:05.791800800Z
+TC01,"UC1 Registration",valid,27,PASS,"qa.cbdd470c@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:15:21.343169500Z
+TC01,"UC1 Registration",valid,28,PASS,"qa.a614151f@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:15:33.336350Z
+TC01,"UC1 Registration",valid,29,PASS,"qa.5923eb01@sharklasers.com","valid email accepted, verification-code screen reached (stopped before the code)",2026-11-07T17:15:45.822180400Z
+TC02,"UC1 Registration",invalid,1,PASS,"empty | ''","rejected as expected",2026-11-07T17:16:23.738834Z
+TC02,"UC1 Registration",invalid,2,PASS,"double_at | 'qa3b5f245d@@sharklasers.com'","rejected as expected",2026-11-07T17:16:45.281163400Z
+TC02,"UC1 Registration",invalid,3,PASS,"contains_space | 'qabacad836 x@sharklasers.com'","rejected as expected",2026-11-07T17:17:08.936233400Z
+TC02,"UC1 Registration",invalid,4,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:17:27.036745Z
+TC02,"UC1 Registration",invalid,5,PASS,"missing_domain | 'qa473bd523@'","rejected as expected",2026-11-07T17:17:49.664569300Z
+TC02,"UC1 Registration",invalid,6,PASS,"missing_at | 'qaf35f74e0.sharklasers.com'","rejected as expected",2026-11-07T17:18:13.417796700Z
+TC02,"UC1 Registration",invalid,7,PASS,"empty | ''","rejected as expected",2026-11-07T17:18:29.951238500Z
+TC02,"UC1 Registration",invalid,8,PASS,"double_at | 'qa0fda46dc@@sharklasers.com'","rejected as expected",2026-11-07T17:18:50.703692200Z
+TC02,"UC1 Registration",invalid,9,PASS,"contains_space | 'qab5686af1 x@sharklasers.com'","rejected as expected",2026-11-07T17:19:09.119891900Z
+TC02,"UC1 Registration",invalid,10,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:19:33.667395900Z
+TC02,"UC1 Registration",invalid,11,PASS,"missing_domain | 'qadea8e248@'","rejected as expected",2026-11-07T17:19:50.747188300Z
+TC02,"UC1 Registration",invalid,12,PASS,"missing_at | 'qa2fe1e010.sharklasers.com'","rejected as expected",2026-11-07T17:20:10.558216500Z
+TC02,"UC1 Registration",invalid,13,PASS,"empty | ''","rejected as expected",2026-11-07T17:20:29.010980100Z
+TC02,"UC1 Registration",invalid,14,PASS,"double_at | 'qa3b45da23@@sharklasers.com'","rejected as expected",2026-11-07T17:20:49.839738600Z
+TC02,"UC1 Registration",invalid,15,PASS,"contains_space | 'qabbe15a07 x@sharklasers.com'","rejected as expected",2026-11-07T17:21:12.234329300Z
+TC02,"UC1 Registration",invalid,16,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:21:28.919071Z
+TC02,"UC1 Registration",invalid,17,PASS,"missing_domain | 'qa349b4264@'","rejected as expected",2026-11-07T17:21:44.796676Z
+TC02,"UC1 Registration",invalid,18,PASS,"missing_at | 'qabf10c5a0.sharklasers.com'","rejected as expected",2026-11-07T17:22:06.264725300Z
+TC02,"UC1 Registration",invalid,19,PASS,"empty | ''","rejected as expected",2026-11-07T17:22:20.778889300Z
+TC02,"UC1 Registration",invalid,20,PASS,"double_at | 'qadbdb85ad@@sharklasers.com'","rejected as expected",2026-11-07T17:22:37.662073400Z
+TC02,"UC1 Registration",invalid,21,PASS,"contains_space | 'qad2fe34df x@sharklasers.com'","rejected as expected",2026-11-07T17:22:56.675447500Z
+TC02,"UC1 Registration",invalid,22,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:23:17.099905100Z
+TC02,"UC1 Registration",invalid,23,PASS,"missing_domain | 'qa8173f7b5@'","rejected as expected",2026-11-07T17:23:34.794332200Z
+TC02,"UC1 Registration",invalid,24,PASS,"missing_at | 'qa232c676c.sharklasers.com'","rejected as expected",2026-11-07T17:23:52.560659200Z
+TC02,"UC1 Registration",invalid,25,PASS,"empty | ''","rejected as expected",2026-11-07T17:24:07.933702700Z
+TC02,"UC1 Registration",invalid,26,PASS,"double_at | 'qaeb578a4c@@sharklasers.com'","rejected as expected",2026-11-07T17:24:24.494448Z
+TC02,"UC1 Registration",invalid,27,PASS,"contains_space | 'qa2d5155c9 x@sharklasers.com'","rejected as expected",2026-11-07T17:24:46.237969700Z
+TC02,"UC1 Registration",invalid,28,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:25:04.623115500Z
+TC02,"UC1 Registration",invalid,29,PASS,"missing_domain | 'qaf19a5b80@'","rejected as expected",2026-11-07T17:25:19.490851200Z
+TC04,"UC2 Login + order",invalid,1,PASS,"empty | ''","rejected as expected",2026-11-07T17:46:04.773746600Z
+TC04,"UC2 Login + order",invalid,2,PASS,"double_at | 'qacaa5580d@@sharklasers.com'","rejected as expected",2026-11-07T17:46:24.984901700Z
+TC04,"UC2 Login + order",invalid,3,PASS,"contains_space | 'qa30f0dea2 x@sharklasers.com'","rejected as expected",2026-11-07T17:46:44.295463300Z
+TC04,"UC2 Login + order",invalid,4,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:47:03.425028700Z
+TC04,"UC2 Login + order",invalid,5,PASS,"missing_domain | 'qac18159c9@'","rejected as expected",2026-11-07T17:47:20.667364300Z
+TC04,"UC2 Login + order",invalid,6,PASS,"missing_at | 'qa3e252667.sharklasers.com'","rejected as expected",2026-11-07T17:47:42.252545200Z
+TC04,"UC2 Login + order",invalid,7,PASS,"empty | ''","rejected as expected",2026-11-07T17:48:03.247094700Z
+TC04,"UC2 Login + order",invalid,8,PASS,"double_at | 'qa6ae23cc3@@sharklasers.com'","rejected as expected",2026-11-07T17:48:22.606437Z
+TC04,"UC2 Login + order",invalid,9,PASS,"contains_space | 'qa6bbea0f7 x@sharklasers.com'","rejected as expected",2026-11-07T17:48:43.861343200Z
+TC04,"UC2 Login + order",invalid,10,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:49:03.602545300Z
+TC04,"UC2 Login + order",invalid,11,PASS,"missing_domain | 'qa1f0a0db7@'","rejected as expected",2026-11-07T17:49:21.411234900Z
+TC04,"UC2 Login + order",invalid,12,PASS,"missing_at | 'qae130fe36.sharklasers.com'","rejected as expected",2026-11-07T17:49:40.492673700Z
+TC04,"UC2 Login + order",invalid,13,PASS,"empty | ''","rejected as expected",2026-11-07T17:49:56.620948800Z
+TC04,"UC2 Login + order",invalid,14,PASS,"double_at | 'qa84575a1e@@sharklasers.com'","rejected as expected",2026-11-07T17:50:11.882185700Z
+TC04,"UC2 Login + order",invalid,15,PASS,"contains_space | 'qa4128c788 x@sharklasers.com'","rejected as expected",2026-11-07T17:50:29.839157Z
+TC04,"UC2 Login + order",invalid,16,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:50:53.225943500Z
+TC04,"UC2 Login + order",invalid,17,PASS,"missing_domain | 'qa8bb18bb2@'","rejected as expected",2026-11-07T17:51:15.148398800Z
+TC04,"UC2 Login + order",invalid,18,PASS,"missing_at | 'qad359343a.sharklasers.com'","rejected as expected",2026-11-07T17:51:35.155322200Z
+TC04,"UC2 Login + order",invalid,19,PASS,"empty | ''","rejected as expected",2026-11-07T17:51:56.302169600Z
+TC04,"UC2 Login + order",invalid,20,PASS,"double_at | 'qaeaa0ce59@@sharklasers.com'","rejected as expected",2026-11-07T17:52:12.603165500Z
+TC04,"UC2 Login + order",invalid,21,PASS,"contains_space | 'qaee5b054e x@sharklasers.com'","rejected as expected",2026-11-07T17:52:31.175468300Z
+TC04,"UC2 Login + order",invalid,22,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:52:54.322501600Z
+TC04,"UC2 Login + order",invalid,23,PASS,"missing_domain | 'qaa3f28d67@'","rejected as expected",2026-11-07T17:53:11.491614700Z
+TC04,"UC2 Login + order",invalid,24,PASS,"missing_at | 'qa20023210.sharklasers.com'","rejected as expected",2026-11-07T17:53:30.670167800Z
+TC04,"UC2 Login + order",invalid,25,PASS,"empty | ''","rejected as expected",2026-11-07T17:53:48.435502600Z
+TC04,"UC2 Login + order",invalid,26,PASS,"double_at | 'qaece8f75c@@sharklasers.com'","rejected as expected",2026-11-07T17:54:04.969374800Z
+TC04,"UC2 Login + order",invalid,27,PASS,"contains_space | 'qa2fa51a04 x@sharklasers.com'","rejected as expected",2026-11-07T17:54:24.298672200Z
+TC04,"UC2 Login + order",invalid,28,PASS,"missing_local_part | '@sharklasers.com'","rejected as expected",2026-11-07T17:54:42.469909600Z
+TC04,"UC2 Login + order",invalid,29,PASS,"missing_domain | 'qaab5086b0@'","rejected as expected",2026-11-07T17:55:02.982059400Z
+TC09,"UC5 Continue shopping",valid,1,PASS,"671-6142/size=37/4","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:56:27.333780100Z
+TC09,"UC5 Continue shopping",valid,2,PASS,"677-6027/size=38/5","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:56:47.743325400Z
+TC09,"UC5 Continue shopping",valid,3,PASS,"571-8030/size=39/6","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:57:13.838534400Z
+TC09,"UC5 Continue shopping",valid,4,PASS,"677-7029/size=40/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:57:33.866983400Z
+TC09,"UC5 Continue shopping",valid,5,PASS,"571-5030/size=41/8","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:57:56.403382500Z
+TC09,"UC5 Continue shopping",valid,6,PASS,"851-4029/size=41/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:58:21.839083700Z
+TC09,"UC5 Continue shopping",valid,7,PASS,"877-6016/size=41/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T18:58:46.993971200Z
+TC09,"UC5 Continue shopping",valid,8,PASS,"874-6078/size=40/6","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:00:05.733211500Z
+TC09,"UC5 Continue shopping",valid,9,PASS,"867-2081/size=44/10","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:00:31.763639100Z
+TC09,"UC5 Continue shopping",valid,10,PASS,"677-4027/size=40/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:00:54.522408300Z
+TC09,"UC5 Continue shopping",valid,11,PASS,"671-6142/size=41/8","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:01:17.519112700Z
+TC09,"UC5 Continue shopping",valid,12,PASS,"677-6027/size=36/3","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:01:38.394607500Z
+TC09,"UC5 Continue shopping",valid,13,PASS,"571-8030/size=37/4","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:01:56.516198700Z
+TC09,"UC5 Continue shopping",valid,14,PASS,"677-7029/size=38/5","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:02:17.743095200Z
+TC09,"UC5 Continue shopping",valid,15,PASS,"571-5030/size=39/6","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:02:39.241649100Z
+TC09,"UC5 Continue shopping",valid,16,PASS,"851-4029/size=41/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:03:02.573137700Z
+TC09,"UC5 Continue shopping",valid,17,PASS,"877-6016/size=45/11","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:03:26.096266900Z
+TC09,"UC5 Continue shopping",valid,18,PASS,"874-6078/size=43/9","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:03:45.650085Z
+TC09,"UC5 Continue shopping",valid,19,PASS,"867-2081/size=44/10","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:04:07.794545300Z
+TC09,"UC5 Continue shopping",valid,20,PASS,"677-4027/size=38/5","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:04:30.886097500Z
+TC09,"UC5 Continue shopping",valid,21,PASS,"671-6142/size=39/6","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:04:55.850938900Z
+TC09,"UC5 Continue shopping",valid,22,PASS,"677-6027/size=40/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:05:16.452125900Z
+TC09,"UC5 Continue shopping",valid,23,PASS,"571-8030/size=41/8","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:05:36.802471700Z
+TC09,"UC5 Continue shopping",valid,24,PASS,"677-7029/size=36/3","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:06:23.964514700Z
+TC09,"UC5 Continue shopping",valid,25,PASS,"571-5030/size=37/4","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:06:47.946290800Z
+TC09,"UC5 Continue shopping",valid,26,PASS,"851-4029/size=41/7","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:07:08.936637300Z
+TC09,"UC5 Continue shopping",valid,27,PASS,"877-6016/size=43/9","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:07:29.599470600Z
+TC09,"UC5 Continue shopping",valid,28,PASS,"874-6078/size=43/9","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:07:54.691413400Z
+TC09,"UC5 Continue shopping",valid,29,PASS,"867-2081/size=44/10","movedToCollection=true, cartItemCount=1, url=https://www.bata.com.pk/collections/all",2026-11-07T19:08:21.673954Z
+TC03,"UC2 Login + order",valid,1,PASS,"877-6016/size=41/7","reached payment stage, fields accepted",2026-11-07T22:16:49.175651100Z
+TC03,"UC2 Login + order",valid,2,PASS,"874-6078/size=42/8","reached payment stage, fields accepted",2026-11-07T22:17:30.291763Z
+TC03,"UC2 Login + order",valid,3,PASS,"867-2081/size=43/9","reached payment stage, fields accepted",2026-11-07T22:18:15.842654400Z
+TC03,"UC2 Login + order",valid,4,PASS,"677-4027/size=40/7","reached payment stage, fields accepted",2026-11-07T22:18:57.634670700Z
+TC03,"UC2 Login + order",valid,5,PASS,"671-6142/size=41/8","reached payment stage, fields accepted",2026-11-07T22:19:39.739553100Z
+TC03,"UC2 Login + order",valid,6,PASS,"677-6027/size=36/3","reached payment stage, fields accepted",2026-11-07T22:20:19.890439900Z
+TC03,"UC2 Login + order",valid,7,PASS,"571-8030/size=37/4","reached payment stage, fields accepted",2026-11-07T22:21:02.995709400Z
+TC03,"UC2 Login + order",valid,8,PASS,"677-7029/size=38/5","reached payment stage, fields accepted",2026-11-07T22:21:43.577089300Z
+TC03,"UC2 Login + order",valid,9,PASS,"571-5030/size=39/6","reached payment stage, fields accepted",2026-11-07T22:22:25.085267800Z
+TC03,"UC2 Login + order",valid,10,PASS,"851-4029/size=40/6","reached payment stage, fields accepted",2026-11-07T22:23:03.023753800Z
+TC03,"UC2 Login + order",valid,11,PASS,"877-6016/size=45/11","reached payment stage, fields accepted",2026-11-07T22:23:41.701949300Z
+TC03,"UC2 Login + order",valid,12,PASS,"874-6078/size=42/8","reached payment stage, fields accepted",2026-11-07T22:24:25.812562900Z
+TC03,"UC2 Login + order",valid,13,PASS,"867-2081/size=43/9","reached payment stage, fields accepted",2026-11-07T22:25:06.754535700Z
+TC03,"UC2 Login + order",valid,14,PASS,"677-4027/size=38/5","reached payment stage, fields accepted",2026-11-07T22:25:46.825929100Z
+TC03,"UC2 Login + order",valid,15,PASS,"671-6142/size=39/6","reached payment stage, fields accepted",2026-11-07T22:26:23.528720200Z
+TC03,"UC2 Login + order",valid,16,PASS,"677-6027/size=40/7","reached payment stage, fields accepted",2026-11-07T22:27:07.772543700Z
+TC03,"UC2 Login + order",valid,17,PASS,"571-8030/size=41/8","reached payment stage, fields accepted",2026-11-07T22:27:50.829925600Z
+TC03,"UC2 Login + order",valid,18,PASS,"677-7029/size=36/3","reached payment stage, fields accepted",2026-11-07T22:28:31.947844100Z
+TC03,"UC2 Login + order",valid,19,PASS,"571-5030/size=37/4","reached payment stage, fields accepted",2026-11-07T22:29:14.627925100Z
+TC03,"UC2 Login + order",valid,20,PASS,"851-4029/size=40/6","reached payment stage, fields accepted",2026-11-07T22:29:54.656958100Z
+TC03,"UC2 Login + order",valid,21,PASS,"877-6016/size=43/9","reached payment stage, fields accepted",2026-11-07T22:30:37.093245100Z
+TC03,"UC2 Login + order",valid,22,PASS,"874-6078/size=42/8","reached payment stage, fields accepted",2026-11-07T22:31:14.467198100Z
+TC03,"UC2 Login + order",valid,23,PASS,"867-2081/size=43/9","reached payment stage, fields accepted",2026-11-07T22:31:53.599907Z
+TC03,"UC2 Login + order",valid,24,PASS,"677-4027/size=36/3","reached payment stage, fields accepted",2026-11-07T22:32:34.522793700Z
+TC03,"UC2 Login + order",valid,25,PASS,"671-6142/size=37/4","reached payment stage, fields accepted",2026-11-07T22:33:13.202274800Z
+TC03,"UC2 Login + order",valid,26,PASS,"677-6027/size=38/5","reached payment stage, fields accepted",2026-11-07T22:33:52.982827Z
+TC03,"UC2 Login + order",valid,27,PASS,"571-8030/size=39/6","reached payment stage, fields accepted",2026-11-07T22:34:31.491443100Z
+TC03,"UC2 Login + order",valid,28,PASS,"677-7029/size=40/7","reached payment stage, fields accepted",2026-11-07T22:35:10.780647Z
+TC03,"UC2 Login + order",valid,29,PASS,"571-5030/size=41/8","reached payment stage, fields accepted",2026-11-07T22:35:50.598814400Z
+TC10,"UC5 Continue shopping",invalid,1,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:40:09.737076100Z
+TC10,"UC5 Continue shopping",invalid,2,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:40:33.687884700Z
+TC10,"UC5 Continue shopping",invalid,3,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:40:59.623617800Z
+TC10,"UC5 Continue shopping",invalid,4,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:41:25.450633100Z
+TC10,"UC5 Continue shopping",invalid,5,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:41:53.810593600Z
+TC10,"UC5 Continue shopping",invalid,6,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:42:20.188868Z
+TC10,"UC5 Continue shopping",invalid,7,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:42:44.863492700Z
+TC10,"UC5 Continue shopping",invalid,8,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:43:08.854192800Z
+TC10,"UC5 Continue shopping",invalid,9,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:44:06.685350800Z
+TC10,"UC5 Continue shopping",invalid,10,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:44:33.916332600Z
+TC10,"UC5 Continue shopping",invalid,11,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:44:59.493452100Z
+TC10,"UC5 Continue shopping",invalid,12,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:45:53.642521100Z
+TC10,"UC5 Continue shopping",invalid,13,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:46:20.252236600Z
+TC10,"UC5 Continue shopping",invalid,14,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:47:17.923144100Z
+TC10,"UC5 Continue shopping",invalid,15,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:47:43.347685300Z
+TC10,"UC5 Continue shopping",invalid,16,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:48:11.023238900Z
+TC10,"UC5 Continue shopping",invalid,17,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:48:42.747897300Z
+TC10,"UC5 Continue shopping",invalid,18,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:49:38.026137900Z
+TC10,"UC5 Continue shopping",invalid,19,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:50:00.667239300Z
+TC10,"UC5 Continue shopping",invalid,20,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:50:29.245174900Z
+TC10,"UC5 Continue shopping",invalid,21,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:50:52.126358Z
+TC10,"UC5 Continue shopping",invalid,22,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:51:17.539037500Z
+TC10,"UC5 Continue shopping",invalid,23,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:51:44.649451300Z
+TC10,"UC5 Continue shopping",invalid,24,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:52:15.389772900Z
+TC10,"UC5 Continue shopping",invalid,25,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:52:40.841064600Z
+TC10,"UC5 Continue shopping",invalid,26,PASS,"quantity='1.5'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:53:06.106117400Z
+TC10,"UC5 Continue shopping",invalid,27,PASS,"quantity=''","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:53:36.206772800Z
+TC10,"UC5 Continue shopping",invalid,28,PASS,"quantity='0'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:54:35.545718400Z
+TC10,"UC5 Continue shopping",invalid,29,PASS,"quantity='-1'","corrected to 1, cartItemCount=1, continueShoppingWorked=true",2026-11-07T22:55:05.227194700Z
+TC07,"UC4 Cart extraction",valid,1,PASS,"k=2 [877-6016/size=41/7, 677-4027/size=37/4]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00]]",2026-11-08T12:44:15.069520Z
+TC07,"UC4 Cart extraction",valid,2,PASS,"k=3 [874-6078/size=42/8, 671-6142/size=38/5, 677-7029/size=38/5]","extracted=3, cart.js lines=3 -> [CartLine[title=Island - Women, quantity=1, price=Rs.1,959.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,469.00]]",2026-11-08T12:44:52.129468100Z
+TC07,"UC4 Cart extraction",valid,3,PASS,"k=1 [867-2081/size=43/9]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,609.00]]",2026-11-08T12:45:26.063789800Z
+TC07,"UC4 Cart extraction",valid,4,PASS,"k=2 [677-4027/size=40/7, 571-8030/size=40/7]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T12:45:58.789679300Z
+TC07,"UC4 Cart extraction",valid,5,PASS,"k=3 [671-6142/size=41/8, 677-7029/size=41/8, 877-6016/size=45/11]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00], CartLine[title=Island - Women, quantity=1, price=Rs.1,959.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T12:46:37.280350300Z
+TC07,"UC4 Cart extraction",valid,6,FAIL,"","Verification page shown by the site - STOP, wait a few hours and tell your instructor",2026-11-08T12:47:56.531079700Z
+TC07,"UC4 Cart extraction",valid,7,PASS,"k=2 [571-8030/37/4 / Beige, 851-4029/42/8 / Brown]","extracted=2, cart.js lines=2 -> [CartLine[title=Weinbrenner - Men, quantity=1, price=Rs.3,149.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00]]",2026-11-08T13:04:06.881391400Z
+TC07,"UC4 Cart extraction",valid,8,PASS,"k=3 [677-7029/38/5 / Olive, 877-6016/42/8 / Black, 677-4027/38/5 / Beige]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00], CartLine[title=Island - Women, quantity=1, price=Rs.1,959.00]]",2026-11-08T13:04:41.425477400Z
+TC07,"UC4 Cart extraction",valid,9,PASS,"k=1 [571-5030/39/6 / Maroon]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00]]",2026-11-08T13:05:09.467911Z
+TC07,"UC4 Cart extraction",valid,10,PASS,"k=2 [851-4029/40/6 / Brown, 867-2081/40/6 / Grey]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,609.00], CartLine[title=Weinbrenner - Men, quantity=1, price=Rs.3,149.00]]",2026-11-08T13:05:41.855091900Z
+TC07,"UC4 Cart extraction",valid,11,PASS,"k=3 [877-6016/45/11 / Black, 677-4027/41/8 / Beige, 571-8030/41/8 / Beige]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00]]",2026-11-08T13:06:46.632006700Z
+TC07,"UC4 Cart extraction",valid,12,PASS,"k=1 [874-6078/42/8 / Black]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,469.00]]",2026-11-08T13:07:19.502763500Z
+TC07,"UC4 Cart extraction",valid,13,PASS,"k=2 [867-2081/43/9 / Grey, 677-6027/37/4 / Black]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:07:44.735573800Z
+TC07,"UC4 Cart extraction",valid,14,PASS,"k=3 [677-4027/38/5 / Beige, 571-8030/38/5 / Beige, 851-4029/44/10 / Brown]","extracted=3, cart.js lines=3 -> [CartLine[title=Weinbrenner - Men, quantity=1, price=Rs.3,149.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:08:48.671949Z
+TC07,"UC4 Cart extraction",valid,15,PASS,"k=1 [671-6142/39/6 / Black]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:09:15.017835200Z
+TC07,"UC4 Cart extraction",valid,16,PASS,"k=2 [677-6027/40/7 / Black, 571-5030/40/7 / Maroon]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:09:47.302189300Z
+TC07,"UC4 Cart extraction",valid,17,PASS,"k=3 [571-8030/41/8 / Beige, 851-4029/42/8 / Brown, 867-2081/42/8 / Grey]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,609.00], CartLine[title=Weinbrenner - Men, quantity=1, price=Rs.3,149.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00]]",2026-11-08T13:10:47.787077500Z
+TC07,"UC4 Cart extraction",valid,18,PASS,"k=1 [677-7029/36/3 / Olive]","extracted=1, cart.js lines=1 -> [CartLine[title=Island - Women, quantity=1, price=Rs.1,959.00]]",2026-11-08T13:11:17.312346700Z
+TC07,"UC4 Cart extraction",valid,19,PASS,"k=2 [571-5030/37/4 / Maroon, 874-6078/44/10 / Black]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,469.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00]]",2026-11-08T13:36:50.506607900Z
+TC07,"UC4 Cart extraction",valid,20,PASS,"k=3 [851-4029/40/6 / Brown, 867-2081/40/6 / Grey, 677-6027/38/5 / Black]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,609.00], CartLine[title=Weinbrenner - Men, quantity=1, price=Rs.3,149.00]]",2026-11-08T13:37:28.543180200Z
+TC07,"UC4 Cart extraction",valid,21,PASS,"k=1 [877-6016/43/9 / Black]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00]]",2026-11-08T13:37:53.659824200Z
+TC07,"UC4 Cart extraction",valid,22,PASS,"k=2 [874-6078/42/8 / Black, 671-6142/40/7 / Black]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,469.00]]",2026-11-08T13:38:27.047922400Z
+TC07,"UC4 Cart extraction",valid,23,PASS,"k=3 [867-2081/43/9 / Grey, 677-6027/41/8 / Black, 571-5030/41/8 / Maroon]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:49:25.738671400Z
+TC07,"UC4 Cart extraction",valid,24,PASS,"k=1 [677-4027/36/3 / Beige]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:49:54.612331100Z
+TC07,"UC4 Cart extraction",valid,25,PASS,"k=2 [671-6142/37/4 / Black, 677-7029/37/4 / Olive]","extracted=2, cart.js lines=2 -> [CartLine[title=Island - Women, quantity=1, price=Rs.1,959.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T13:50:27.470982300Z
+TC07,"UC4 Cart extraction",valid,26,PASS,"k=3 [677-6027/38/5 / Black, 571-5030/38/5 / Maroon, 874-6078/41/7 / Black]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,469.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00]]",2026-11-08T14:06:22.797656800Z
+TC07,"UC4 Cart extraction",valid,27,PASS,"k=1 [571-8030/39/6 / Beige]","extracted=1, cart.js lines=1 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00]]",2026-11-08T14:06:51.766809400Z
+TC07,"UC4 Cart extraction",valid,28,FAIL,"k=2 [677-7029/40/7 / Olive, 877-6016/44/10 / Black]","extracted=2, cart.js lines=0 -> [CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00], CartLine[title=Island - Women, quantity=1, price=Rs.1,959.00]]",2026-11-08T14:07:24.085266800Z
+TC07,"UC4 Cart extraction",valid,29,PASS,"k=3 [571-5030/41/8 / Maroon, 874-6078/44/10 / Black, 671-6142/41/8 / Black]","extracted=3, cart.js lines=3 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,469.00], CartLine[title=Bata - Women, quantity=1, price=Rs.1,119.00]]",2026-11-08T14:30:01.539809900Z
+TC07,"UC4 Cart extraction",valid,30,PASS,"k=1 [851-4029/40/6 / Brown]","extracted=1, cart.js lines=1 -> [CartLine[title=Weinbrenner - Men, quantity=1, price=Rs.3,149.00]]",2026-11-08T14:30:34.872601600Z
+TC07,"UC4 Cart extraction",valid,31,PASS,"k=2 [877-6016/41/7 / Black, 677-4027/37/4 / Beige]","extracted=2, cart.js lines=2 -> [CartLine[title=Bata - Women, quantity=1, price=Rs.1,609.00], CartLine[title=Bata - Men, quantity=1, price=Rs.1,959.00]]",2026-11-08T14:31:04.871909700Z
+TC08,"UC4 Cart extraction",invalid,1,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:15:00.735932400Z
+TC08,"UC4 Cart extraction",invalid,2,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:15:46.572039200Z
+TC08,"UC4 Cart extraction",invalid,3,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:16:29.056267900Z
+TC08,"UC4 Cart extraction",invalid,4,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:17:09.462841100Z
+TC08,"UC4 Cart extraction",invalid,5,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:17:51.216436100Z
+TC08,"UC4 Cart extraction",invalid,6,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:18:37.156471500Z
+TC08,"UC4 Cart extraction",invalid,7,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:19:30.127198100Z
+TC08,"UC4 Cart extraction",invalid,8,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:20:44.756454Z
+TC08,"UC4 Cart extraction",invalid,9,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:21:31.801950400Z
+TC08,"UC4 Cart extraction",invalid,10,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:22:19.991329600Z
+TC08,"UC4 Cart extraction",invalid,11,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:23:09.139331900Z
+TC08,"UC4 Cart extraction",invalid,12,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:23:45.427633500Z
+TC08,"UC4 Cart extraction",invalid,13,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:24:27.034659Z
+TC08,"UC4 Cart extraction",invalid,14,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:25:13.337801900Z
+TC08,"UC4 Cart extraction",invalid,15,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:25:53.521953900Z
+TC08,"UC4 Cart extraction",invalid,16,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:26:43.859687400Z
+TC08,"UC4 Cart extraction",invalid,17,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:27:24.930024100Z
+TC08,"UC4 Cart extraction",invalid,18,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:28:14.212534600Z
+TC08,"UC4 Cart extraction",invalid,19,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:28:57.900971Z
+TC08,"UC4 Cart extraction",invalid,20,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:29:37.999519700Z
+TC08,"UC4 Cart extraction",invalid,21,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:30:19.684638300Z
+TC08,"UC4 Cart extraction",invalid,22,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:31:08.015460400Z
+TC08,"UC4 Cart extraction",invalid,23,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:32:26.296454Z
+TC08,"UC4 Cart extraction",invalid,24,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:33:08.015084500Z
+TC08,"UC4 Cart extraction",invalid,25,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:33:56.671958600Z
+TC08,"UC4 Cart extraction",invalid,26,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:34:43.534354500Z
+TC08,"UC4 Cart extraction",invalid,27,PASS,"fresh_session","extracted=0, emptyMessage=true",2026-11-08T15:35:27.264789300Z
+TC08,"UC4 Cart extraction",invalid,28,PASS,"cookies_cleared","extracted=0, emptyMessage=true",2026-11-08T15:36:17.605222500Z
+TC08,"UC4 Cart extraction",invalid,29,PASS,"link_with_tracking_param","extracted=0, emptyMessage=true",2026-11-08T15:36:55.773668700Z

@@ -1,0 +1,22 @@
+START HERE  (nothing to edit)
+
+1. IntelliJ: File > Open > choose this "bata-qa" folder (the one with pom.xml) > Trust Project.
+   Use a NEW window. Do not mix it with your old BataQAAutomation project.
+2. Wait until the bottom-right progress bar finishes (Maven downloads Selenium, needs internet).
+   If files stay red: Maven tab (right side) > click the circular Reload arrow.
+3. File > Project Structure > Project > SDK = 17.
+4. Open: src/test/java/pk/bata/qa/tests/BataUseCaseTests.java
+5. Click the green play arrow next to "public class BataUseCaseTests" > Run.
+   (Or click the arrow next to ONE test, e.g. tc05_guestOrder_valid, to try just that test first.)
+
+TC03 (login) will open a Chrome window ONCE and wait: type your email, copy the 6-digit code
+from your Guerrilla Mail inbox, type it in. The window closes by itself. Do not close it yourself.
+
+Where the results are (project folder, refresh with right-click > Reload from Disk):
+  results/results.csv        every run: PASS/FAIL, value used, details
+  results/summary.md         table with pass rate, 95% confidence interval, ACCEPT/REJECT
+  results/plots/*.png        pass/fail pictures for the report
+  results/screenshots/*.png  a picture of the browser for every FAILED run
+
+Keep the laptop plugged in and awake. Full run = several hours. Never click Pay on a test order.
+If Bata shows a CAPTCHA or "too many requests": stop (red square) and tell your instructor.

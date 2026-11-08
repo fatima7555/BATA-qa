@@ -1,0 +1,11 @@
+test_id,use_case,kind,runs,passes,failures,pass_rate,ci_low,ci_high,lower_bound_95_one_sided,decision
+TC01,UC1 Registration,valid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC02,UC1 Registration,invalid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC03,UC2 Login + order,valid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC04,UC2 Login + order,invalid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC05,UC3 Guest order,valid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC06,UC3 Guest order,invalid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC07,UC4 Cart extraction,valid,31,29,2,0.9355,0.7858,0.9921,0.8105,INCOMPLETE
+TC08,UC4 Cart extraction,invalid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC09,UC5 Continue shopping,valid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
+TC10,UC5 Continue shopping,invalid,29,29,0,1.0000,0.8806,1.0000,0.9019,ACCEPT
